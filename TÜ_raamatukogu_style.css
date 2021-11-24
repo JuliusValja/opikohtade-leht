@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: #2a3a4a;
 	background-image:linear-gradient(rgba(42,58,74,0.6),rgba(42,58,74,0.6)), url(https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/241324191_4694451953898415_2822199471680408751_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=O55lGs-OkBYAX_TlIYr&_nc_ht=scontent-hel3-1.xx&oh=7e187718dc0ddf0c6c50b2517ca9ef2d&oe=619D865D);
 	height: 100%;
@@ -7,12 +7,16 @@ body{
 	background-position: center;
 	}
 
-h1{
+h1 {
 	color: whitesmoke;text-align: center;
 }
 
-p{
+p {
 	color: whitesmoke; font-family: Arial;
+}
+
+a {
+	color: whitesmoke;
 }
 
 .column {
@@ -48,6 +52,4 @@ p{
     margin: auto;
 }
 
-a{
-	color: whitesmoke;
-}
+
