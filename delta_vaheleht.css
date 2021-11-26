@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+body {
+  background: #192734;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.navbar {
+  background: #15202B;
+  padding: 1em;
+}
+
+.navbar .pealeht {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+a {
+  color: #707070;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  background-image: url(https://s.err.ee/photo/crop/2020/01/27/736395hd8b5t2.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+h1 {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.features {
+  background: #5c99e7;
+}
+
+.features-list {
+  margin: 0;
+  padding-left: .1em;
+}
+
+.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+.features-list li:before {
+  content: "";
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(checkmark.png);
+  background-size: contain;
+  margin-right: .5em;
+}
+
+
+.põhiosa {
+  color: white;
+
+}
+
+.pro-tips{
+  color: white;
+
+}
+.tips li {
+  margin-bottom: 5em;
+  font-weight: bold;
+  font-size: 1.4em;
+  
+}
+
+
+.parem{
+  display: inline;
+}
