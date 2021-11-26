@@ -73,7 +73,7 @@ h1 {
 
 }
 
-.pro-tips{
+  .pro_tips{
   color: white;
 
 }
@@ -87,4 +87,16 @@ h1 {
 
 .parem{
   display: inline;
+  text-anchor: right;
 }
+
+.parem p{
+  color: white;
+  font-size: 1.4em;
+
+
+}
+
+
+
+
