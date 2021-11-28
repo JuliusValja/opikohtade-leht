@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #15202B;
+    font-family: "Poppins";
+
+}
+
+nav {
+    background-color:rgb(44,86,150);
+    /* background-color: #15202B; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:0; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+nav li{
+    display: inline;
+    margin-right: 40px;    
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    width: 200px;
+    font-size: 24px;
+    font-family:"Helvetica";
+    text-decoration:none;
+    font-weight: bold;
+    padding-top:1vmax;
+    padding-bottom:1vmax;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav a:hover {
+    background-color: rgb(59, 110, 187);
+}
+section {
+    padding: 5em 2em;
+}
+[data-animation="parallax"] .taust{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tartu_University_05.jpg/2560px-Tartu_University_05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+[data-animation="parallax"] .leht {
+    min-height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+    background-image: url(https://s.err.ee/photo/crop/2020/01/27/736395hd8b5t2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Poppins";
+    color: white;   
+}
+h1 span {
+    background-color: #15202B;
+    padding:5px;
+}
