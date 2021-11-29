@@ -12,13 +12,13 @@ section:nth-of-type(2) {
     
 }
 section:nth-of-type(3) {
-    background-image: url(https://lh3.googleusercontent.com/proxy/w6ge9hGm8qWluljzuSoUPbZXIRYYM9hPdTl1qjqidoUmXFYwUDx5b9hXyXItVsGt3d9tEV2O8XdGSxTGtpCyBC8eJ_JlNmCirqepgNa5gW2zgceN5KZLk-v9sZJvlBXadcgxFCmUiMlq6Q);
+    background-image: url(raamatukogu.jpg);
     background-position: left;
     text-align: right;
     align-items: right;
 }
 section:nth-of-type(4) {
-    background-image: url(https://g.delfi.ee/images/pix/file75026441_sade.jpg);
+    background-image: url(sade.jpg);
     background-position: right;
 }
 

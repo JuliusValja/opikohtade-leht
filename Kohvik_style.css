@@ -6,11 +6,18 @@
     background-position: top;
     background-repeat: no-repeat; 
 }
+section:nth-of-type(2) {
+    white-space: initial;
+    background-image: url(agape.jpg);
+    background-position: right;
+    text-align: left;
+    align-items: left;   
+}
 section:nth-of-type(3){
     background-image: url(sade.jpg);
     background-position: left;
 }
 section:nth-of-type(4) {
-    background-image: url(https://kohvipaus.ee/wp-content/uploads/2017/12/kohvipaus-tartu-tartu2.jpg);
+    background-image: url(kohvipaus.jpg);
     background-position: right;
 }
