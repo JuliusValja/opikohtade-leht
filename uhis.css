@@ -6,7 +6,8 @@
 body {
     background-color: #15202B;
     font-family: "Poppins";
-
+    color: white;
+    margin:0;
 }
 
 nav {
@@ -26,6 +27,7 @@ nav li{
     display: inline;
     margin-right: 40px;    
 }
+
 
 nav a {
     color: white;
@@ -47,7 +49,6 @@ section {
     padding: 5em 2em;
 }
 [data-animation="parallax"] .taust{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tartu_University_05.jpg/2560px-Tartu_University_05.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -56,14 +57,25 @@ section {
 }
 
 [data-animation="parallax"] .leht {
-    min-height: 300px;
-    width: 100%;
-    background-color: lightgrey;
-    background-image: url(https://s.err.ee/photo/crop/2020/01/27/736395hd8b5t2.jpg);
+    background-size:contain;
+    height: 400px;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 50% 100%;
+    color: white;
+    align-content: left;
 
+}
+.leht a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+section:nth-of-type(2) { 
+    background-color: #2b6777;
+    
+
+}
+section:nth-of-type(3) { 
+    background-color: #264143;
 }
 
 h1 {
@@ -75,3 +87,46 @@ h1 span {
     background-color: #15202B;
     padding:5px;
 }
+
+.list li {
+        font-size: 1.7em;
+        margin-bottom:1em;
+        margin-left: 2em;
+        position: relative;
+        list-style-type:none;
+}
+
+.list li:before {
+    content: "";
+    left: -1em;
+    position: absolute;
+    margin-top: 0.5em;
+    width: 20px;
+    height: 20px;
+    background-image: url(checkmark.png);
+    background-size: contain;
+    margin-right: .5em;
+  }
+.tutvustus1 {
+    margin:0;
+    text-align: left;
+    width:30%;
+    font-size: 1.3em;
+}
+.tutvustus2 {
+    margin: auto 70%;
+    width: 30%;
+    text-align: right;
+    font-size: 1.3em;
+}
+.kaart {
+    width:40%;
+    height:500px; 
+    border:0;
+    margin: 20px; 
+}
+.põhiosa a{
+    text-decoration: none;
+    color: lightcoral;
+}
+h2{margin-bottom: 15px}

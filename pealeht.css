@@ -1,6 +1,6 @@
 .taust {
     background-image: url();
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tartu_University_05.jpg/2560px-Tartu_University_05.jpg);
+    background-image: url(tartu.jpg);
 }
 section:nth-of-type(2) {
     white-space: initial;

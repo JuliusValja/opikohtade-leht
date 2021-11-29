@@ -2,13 +2,11 @@
 body {
   background: #192734;
   font-family: "Poppins";
-  margin: 0;
+  margin: 0; 
 }
 
-
-
 [data-animation="parallax"] .esi {
-  background-image: url(https://s.err.ee/photo/crop/2020/01/27/736395hd8b5t2.jpg);
+  background-image: url(delta.jpg);
   background-size:cover;
   min-height: 600px;
   background-attachment: fixed;
@@ -17,53 +15,22 @@ body {
 }
 
 
-
-[data-animation="parallax"] .features {
-  background: #5c99e7;
-  min-height: 300px;
-}
-
-.features-list {
-  margin: 0;
-  padding-left: .1em;
-}
-
-.features-list li {
-  font-size: 1.1em;
-  margin-bottom: 1em;
-  margin-left: 2em;
-  position: relative;
-}
-
-.features-list li:before {
-  content: "";
-  left: -2em;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-image: url(checkmark.png);
-  background-size: contain;
-  margin-right: .5em;
-}
-
-
-.põhiosa {
-  color: white;
-
-}
-
-.pro_tips{
-  color: white;
-
+.tutvustus {
+  margin: 20px;
+  font-size: 1.2em;
 }
 .tips li {
-  margin-bottom: 5em;
+  margin-top: 20px;
+  margin-bottom: 1em;
+  margin-left: 20px;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.1em;
   
 }
 
-
+.pilt {
+  margin: 20px;
+}
 .parem{
   display: inline;
   text-anchor: right;
