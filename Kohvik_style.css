@@ -21,3 +21,7 @@ section:nth-of-type(4) {
     background-image: url(kohvipaus.jpg);
     background-position: right;
 }
+
+.tutvustus1.agape {
+    width: 25%;
+}
