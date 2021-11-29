@@ -1,0 +1,24 @@
+.taust {
+    background-image: url();
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tartu_University_05.jpg/2560px-Tartu_University_05.jpg);
+}
+section:nth-of-type(2) {
+    white-space: initial;
+    background-image: url(delta.jpg);
+    background-position: right;
+    text-align: left;
+    align-items: left;
+    
+    
+}
+section:nth-of-type(3) {
+    background-image: url(https://lh3.googleusercontent.com/proxy/w6ge9hGm8qWluljzuSoUPbZXIRYYM9hPdTl1qjqidoUmXFYwUDx5b9hXyXItVsGt3d9tEV2O8XdGSxTGtpCyBC8eJ_JlNmCirqepgNa5gW2zgceN5KZLk-v9sZJvlBXadcgxFCmUiMlq6Q);
+    background-position: left;
+    text-align: right;
+    align-items: right;
+}
+section:nth-of-type(4) {
+    background-image: url(https://g.delfi.ee/images/pix/file75026441_sade.jpg);
+    background-position: right;
+}
+
